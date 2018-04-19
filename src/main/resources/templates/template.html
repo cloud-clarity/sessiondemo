@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>FANTASTIC SESSION EXAMPLE DEMO!!!</h1>
+<p>Instruction: send a name as a request parameter with the name "name", like for example <a href="/save?name=Andreas">/save?name=Andreas</a></p>
+<p>Then get the name by sending a request to the <a href="/">application</a></p>
+<p>The name will, as if created by black magic, appear here:</p>
+<h2 th:text="${session.name}"></h2>
+
+</body>
+</html>
